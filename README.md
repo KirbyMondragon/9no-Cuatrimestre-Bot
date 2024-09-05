@@ -26,12 +26,12 @@ Para instalar el proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/KirbyMondragon/denisse3.0.git
+    git clone https://github.com/KirbyMondragon/9no-Cuatrimestre-Bot.git
     ```
 
 2. Navega al directorio del proyecto:
     ```sh
-    cd denisse3.0
+    cd base-ts-baileys-memory
     ```
 
 3. Instala las dependencias:
@@ -42,6 +42,7 @@ Para instalar el proyecto, sigue estos pasos:
     ```sh
     pnpm run dev
     ```
+
 <div align="center">
     <picture align="center">
       <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Niefee/niefee/master/assets/github-contribution-grid-snake.svg">

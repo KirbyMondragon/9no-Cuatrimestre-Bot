@@ -223,7 +223,7 @@ const Carreras = addKeyword(["3"])
 const ContactarAsesor = addKeyword(["4"])
     .addAnswer("3️⃣ Contactar asesor académico 📞")
     .addAnswer([
-        "Para contactar a un asesor académico, por favor envía un correo a asesor@upsrj.edu.mx o llama al 4424567890.",
+        "Para contactar a un asesor académico, por favor envía un correo a asesor@upsrj.edu.mx o whatsapp al https://wa.link/5ofukn",
         "Estamos aquí para ayudarte con cualquier consulta que tengas."
     ]);
 
