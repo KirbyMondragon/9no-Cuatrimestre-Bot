@@ -10,7 +10,7 @@ const Salir = addKeyword(["4"]).addAnswer(
 
 export const welcomeFlow = addKeyword(["Hola", "hola", "hi", "hello","denisse"])
 
-    .addAnswer("👩🏽‍💻 ¡Hola! Soy Denisse, la asistente virtual de la UPSRJ.")
+    .addAnswer("> 👩🏽‍💻 ¡Hola! Soy Denisse, la asistente virtual de la UPSRJ.")
     .addAnswer(
         [
             "  Menu ✨📚",
