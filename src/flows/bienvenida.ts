@@ -8,7 +8,7 @@ const Salir = addKeyword(["4"]).addAnswer(
     "Gracias por utilizar nuestro servicio. ¡Hasta luego! 💬😊"
 );
 
-export const welcomeFlow = addKeyword([EVENTS.WELCOME])
+export const welcomeFlow = addKeyword(["Hola", "hola", "hi", "hello","denisse"])
 
     .addAnswer("👩🏽‍💻 ¡Hola! Soy Denisse, la asistente virtual de la UPSRJ.")
     .addAnswer(
