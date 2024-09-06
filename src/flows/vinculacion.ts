@@ -62,7 +62,7 @@ const Carreras = addKeyword(["3"])
     },
     [
         addKeyword(["7"])
-            .addAnswer("1️⃣ Terapia Física 🎓")
+            .addAnswer("> Terapia Física 🎓")
             .addAnswer(`La información más actualizada la puedes ver en nuestro drive, te dejo el link coyote : ${vinculacionDrive.FisioTerapia}  🆕📄🔍`)
             .addAnswer("un minuto...tenemos una sorpresa para ti🎉✨")
             .addAnswer([
@@ -88,7 +88,7 @@ const Carreras = addKeyword(["3"])
             }),
 
         addKeyword(["5"])
-            .addAnswer("2️⃣ Ingeniería en Software 🎓")
+            .addAnswer("> Ingeniería en Software 🎓")
             .addAnswer(`La información más actualizada la puedes ver en nuestro drive, te dejo el link coyote : ${vinculacionDrive.Software}  🆕📄🔍`)
             .addAnswer("un minuto...tenemos una sorpresa para ti🎉✨")
             .addAnswer([
@@ -114,7 +114,7 @@ const Carreras = addKeyword(["3"])
             }),
 
         addKeyword(["3"])
-            .addAnswer("3️⃣ Ingeniería en Metrología Industrial 🎓")
+            .addAnswer("> Ingeniería en Metrología Industrial 🎓")
             .addAnswer(`La información más actualizada la puedes ver en nuestro drive, te dejo el link coyote : ${vinculacionDrive.MetrologiaIndustrial}  🆕📄🔍`)
             .addAnswer("un minuto...tenemos una sorpresa para ti🎉✨")
             .addAnswer([
@@ -140,7 +140,7 @@ const Carreras = addKeyword(["3"])
             }),
 
         addKeyword(["6"])
-            .addAnswer("4️⃣ Ingeniería en Sistemas Automotrices 🎓")
+            .addAnswer("> Ingeniería en Sistemas Automotrices 🎓")
             .addAnswer(`La información más actualizada la puedes ver en nuestro drive, te dejo el link coyote : ${vinculacionDrive.Automotrices}  🆕📄🔍`)
             .addAnswer("un minuto...tenemos una sorpresa para ti🎉✨")
             .addAnswer([
@@ -166,7 +166,7 @@ const Carreras = addKeyword(["3"])
             }),
 
         addKeyword(["2"])
-            .addAnswer("5️⃣ Ingeniería en Animación y Efectos Visuales 🎓")
+            .addAnswer("> Ingeniería en Animación y Efectos Visuales 🎓")
             .addAnswer(`La información más actualizada la puedes ver en nuestro drive, te dejo el link coyote : ${vinculacionDrive.Animacion}  🆕📄🔍`)
             .addAnswer("un minuto...tenemos una sorpresa para ti🎉✨")
             .addAnswer([
@@ -192,7 +192,7 @@ const Carreras = addKeyword(["3"])
             }),
 
         addKeyword(["4"])
-            .addAnswer("6️⃣ Ingeniería en Robótica Computacional 🎓")
+            .addAnswer("> Ingeniería en Robótica Computacional 🎓")
             .addAnswer(`La información más actualizada la puedes ver en nuestro drive, te dejo el link coyote : ${vinculacionDrive.Robotica}  🆕📄🔍`)
             .addAnswer("un minuto...tenemos una sorpresa para ti🎉✨")
             .addAnswer([
@@ -221,7 +221,7 @@ const Carreras = addKeyword(["3"])
 
 // Contactar asesor
 const ContactarAsesor = addKeyword(["4"])
-    .addAnswer("3️⃣ Contactar asesor académico 📞")
+    .addAnswer("> Contactar asesor académico 📞")
     .addAnswer([
         "Para contactar a un asesor académico, por favor envía un correo a asesor@upsrj.edu.mx o whatsapp al https://wa.link/5ofukn",
         "Estamos aquí para ayudarte con cualquier consulta que tengas."
@@ -234,7 +234,7 @@ const ContactarAsesor = addKeyword(["4"])
 // Vinculación
 export const Vinculacion = addKeyword(["2"])
     .addAnswer([
-        "> 2️⃣ Vinculación 🔗✨",
+        "> Vinculación 🔗✨",
         " ",
         "Elige una opción:",
         "",
