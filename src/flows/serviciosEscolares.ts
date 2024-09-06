@@ -6,7 +6,7 @@ import ServiciosEscolaresDrive from '~/drive/serviciosEscolaresDrive';
 
 // Sección 1: Becas
 const Becas = addKeyword(["5"])
-    .addAnswer("4️⃣ Becas 🎓💰")
+    .addAnswer("> Becas 🎓💰")
     .addAnswer(
         [
             "Consulta la información sobre becas en: 🆕📄🔍",
@@ -34,7 +34,7 @@ const Becas = addKeyword(["5"])
 
 // Sección 2: Admisiones
 const Admisiones = addKeyword(["2"])
-    .addAnswer("1️⃣ Admisiones 📝🎓")
+    .addAnswer("> Admisiones 📝🎓")
     .addAnswer(
         [
             "La información más reciente la podrás encontrar en: 🆕📄🔍",
@@ -61,8 +61,8 @@ const Admisiones = addKeyword(["2"])
     });
 
 // Sección 3: Titulación
-const Titulacion = addKeyword(["5"])
-    .addAnswer("5️⃣ Titulación 🎓📜")
+const Titulacion = addKeyword(["6"])
+    .addAnswer("> Titulación 🎓📜")
     .addAnswer(
         [
             "Toda la información sobre titulación está disponible en: 🆕📄🔍",
@@ -90,16 +90,17 @@ const Titulacion = addKeyword(["5"])
 
 // Sección 4: Reinscripción
 const Reinscripciones = addKeyword(["3"])
-    .addAnswer("2️⃣ Reinscripciones 🔄📝")
+
     .addAnswer(
         [
+            "> Reinscripciones 🔄📝",
             "También puedes revisar más información en: 🆕📄🔍",
             "  ",
             "https://upsrj.edu.mx/inscripciones-reinscripciones/",
              "Aquí podrás encontrar la información más actualizada 📚✨"
-        ],
-        { capture: true }
-    ).addAnswer("", null, async (_, { state, flowDynamic  }) => {
+        ]
+    )
+    .addAnswer("", null, async (_, { state, flowDynamic  }) => {
         await flowDynamic([
             "¿Te puedo asistir con algo más?",
             "1️⃣ Regresar al menú",
@@ -118,8 +119,8 @@ const Reinscripciones = addKeyword(["3"])
     });
 
 // Sección 5: Reincorporación
-const Reincorporacion = addKeyword(["7"])
-    .addAnswer("7️⃣ Reincorporación 🔄📚")
+const Reincorporacion = addKeyword(["8"])
+    .addAnswer("> Reincorporación 🔄📚")
     .addAnswer("Por el momento, estamos construyendo esta información 🛠️🚧 ")
     .addAnswer("", null, async (_, { state, flowDynamic  }) => {
         await flowDynamic([
@@ -142,8 +143,8 @@ const Reincorporacion = addKeyword(["7"])
 
 
 // Sección 6: Alta y Baja del IMSS
-const IMSS = addKeyword(["6"])
-    .addAnswer("6️⃣ Registro y cancelación en el IMSS 🏥📝❌")
+const IMSS = addKeyword(["7"])
+    .addAnswer("> Registro y cancelación en el IMSS 🏥📝❌")
     .addAnswer(`Informacion sobre el IMSS: ${ServiciosEscolaresDrive.InfografiaIMSS} 🏥📝`).addAnswer("", null, async (_, { state, flowDynamic  }) => {
         await flowDynamic([
             "¿Te puedo asistir con algo más?",
@@ -164,7 +165,7 @@ const IMSS = addKeyword(["6"])
 
 // Sección 7: Emisión de Documentos
 const EmisionDocumentos = addKeyword(["4"])
-    .addAnswer("3️⃣ Emisión de documentos 📄🖨️") // Asignar el PDF correspondiente
+    .addAnswer("> Emisión de documentos 📄🖨️") // Asignar el PDF correspondiente
     .addAnswer(
         [
             "Elige una opción:",
@@ -221,7 +222,7 @@ const EmisionDocumentos = addKeyword(["4"])
 
 // Sección 8: Salir
 const Salir = addKeyword(["9"]).addAnswer(
-    "❌ Gracias por utilizar nuestro servicio. ¡Hasta luego! ❌"
+    "Gracias por utilizar nuestro servicio. ¡Hasta luego Coyote! "
 );
 
 // Menu Principal
