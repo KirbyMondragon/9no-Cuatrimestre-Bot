@@ -7,7 +7,7 @@ import linksDriveEnglish from '~/drive/EnglishDrive';
 const ClasesSabatinas = addKeyword(["2"])
     .addAnswer(
         [
-            "1️⃣ Clases Sabatinas 🇬🇧",
+            "> Clases Sabatinas 🇬🇧",
             " ",
             "La información más actualizada de Clases Sabatinas, la puedes ver en: ",
             "  ",
@@ -37,7 +37,7 @@ const ClasesSabatinas = addKeyword(["2"])
 const CertificacionITEP = addKeyword(["3"])
     .addAnswer(
         [
-            "2️⃣ Certificación ITEP 🇬🇧",
+            "> Certificación ITEP 🇬🇧",
             "",
             "La información más actualizada sobre la Certificación ITEP, la puedes ver en: ",
             "  ",
@@ -66,7 +66,7 @@ const CertificacionITEP = addKeyword(["3"])
 const CursosEgresados = addKeyword(["2"])
     .addAnswer(
         [
-            "1️⃣ Cursos para Egresados 🇬🇧",
+            "> Cursos para Egresados 🇬🇧",
             "",
             "La información más actualizada sobre Cursos de Egresados, la puedes ver en: 🆕📄🔍",
             "  ",
@@ -93,7 +93,7 @@ const CursosEgresados = addKeyword(["2"])
 const CertificacionesEgresados = addKeyword(["3"])
     .addAnswer(
         [
-            "2️⃣ Certificaciones para Egresados 🇬🇧",
+            "> Certificaciones para Egresados 🇬🇧",
             "",
             "Para más información sobre Certificaciones para Egresados, visita: 🆕📄🔍",
             "  ",
@@ -120,7 +120,7 @@ const CertificacionesEgresados = addKeyword(["3"])
 const Egresados = addKeyword(["4"])
     .addAnswer(
         [
-            "Menu de Egresados 🇬🇧",
+            "> Menu de Egresados 🇬🇧",
             "",
             "Elige una opción:",
             "1️⃣ Regresar al menú 🏠",
@@ -149,7 +149,7 @@ const Egresados = addKeyword(["4"])
 
 
 export const Ingles = addKeyword(["3"])
-    .addAnswer("2️⃣ Inglés 🇬🇧🇺🇸📚")
+    .addAnswer("> Inglés 🇬🇧🇺🇸📚")
     .addAnswer(
         [
             "Elige una opción:",
