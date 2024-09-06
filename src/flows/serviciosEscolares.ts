@@ -67,7 +67,7 @@ const Titulacion = addKeyword(["6"])
         [
             "Toda la información sobre titulación está disponible en: 🆕📄🔍",
             "  ",
-            "https://upsrj.edu.mx/titulacion/",
+            "https://upsrj.edu.mx/titulacion-2/" ,
             "Aquí podrás encontrar la información más actualizada 📚✨"
         ]
     ).addAnswer("", null, async (_, { state, flowDynamic  }) => {
@@ -172,8 +172,8 @@ const EmisionDocumentos = addKeyword(["4"])
             " ",
             "1️⃣ Regresar al menú Servicios Escolares 🏠",
             "2️⃣ Kardex",
-            "3️⃣ Reposición de credencial física (parcial)",
-            "4️⃣ Certificados de créditos",
+            "3️⃣ Reposición de credencial ",
+            "4️⃣ Certificado parcial ",
             "5️⃣ Título de grados",
             "6️⃣ Constancia",
             "7️⃣ Salir❌"
