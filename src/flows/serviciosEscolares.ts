@@ -121,8 +121,7 @@ const Reinscripciones = addKeyword(["3"])
 // Sección 5: Reincorporación
 const Reincorporacion = addKeyword(["8"])
     .addAnswer("> Reincorporación 🔄📚")
-    .addAnswer("Por el momento, estamos construyendo esta información 🛠️🚧 ")
-    .addAnswer("", null, async (_, { state, flowDynamic  }) => {
+    .addAnswer(`Informacion sobre la Reincorporacion: ${ServiciosEscolaresDrive.Reincorporacion} 🏥📝`).addAnswer("", null, async (_, { state, flowDynamic  }) => {
         await flowDynamic([
             "¿Te puedo asistir con algo más?",
             "1️⃣ Regresar al menú",
