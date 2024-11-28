@@ -4,10 +4,10 @@
 <p align='center'>
 </p>
 
-<h1> Welcome < UPSRJ Developers/ >! 
+<h1> Bienvenidos al himalaya< UPSRJ Developers/ >! 
 
 <div size='20px'>
-	<h3>The Technologies that you need are: </h3> 
+	<h3>Las tecnologías que necesitas son:</h3> 
 	<p align="center">
 	  <a href="https://skillicons.dev">
 	    <img src="https://skillicons.dev/icons?i=git,github,nodejs,mongo,docker,typescript" />
@@ -16,12 +16,12 @@
 </div>
 
 
-<h2> Description: </h2>
+<h2> Descripción: </h2>
 
-<p>- 🔭This is a Chatbot is for the service of the UPSRJ 🌱 </p>
+<p>- 🔭Este es un Chatbot al servicio de UPSRJ 🌱 </p>
 
 
-## How install 
+## ¿Como instalar?
 Para instalar el proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
@@ -34,7 +34,7 @@ Para instalar el proyecto, sigue estos pasos:
     cd base-ts-baileys-memory
     ```
 
-3. Instala las dependencias:
+3. Instalar las dependencias:
     ```sh
     pnpm install
     ```
@@ -73,19 +73,18 @@ Para instalar el proyecto, sigue estos pasos:
   </a>
 </p>
 
+## Primeros pasos
 
-## Getting Started
-
-With this library, you can build automated conversation flows agnostic to the WhatsApp provider, set up automated responses for frequently asked questions, receive and respond to messages automatically, and track interactions with customers. Additionally, you can easily set up triggers to expand functionalities limitlessly.
+Con esta biblioteca, puedes crear flujos de conversación automatizados independientes del proveedor de WhatsApp, configurar respuestas automáticas para preguntas frecuentes, recibir y responder mensajes automáticamente y realizar un seguimiento de las interacciones con los clientes. Además, puedes configurar fácilmente activadores para ampliar las funcionalidades sin límites.
 
 ```
 npm create builderbot@latest
 ```
 
 
-## Documentation Denisse Universidad
+## Documentacion Denisse Universidad
 
-Visit [Denisse Documentation](https://drive.google.com/file/d/1lASDa7HzmlpEuT93hlR4sc_ksyyl8OOH/view?usp=drive_link) to view the full documentation.
+Visita [Denisse Documentacion](https://drive.google.com/file/d/1lASDa7HzmlpEuT93hlR4sc_ksyyl8OOH/view?usp=drive_link) to view the full documentation.
 
 ## Documentation
 
