@@ -1,6 +1,6 @@
 
 
-<img src = "https://i.pinimg.com/originals/9f/2d/29/9f2d298c3e545b5ed74f003c4bdca357.gif" width = auto> </h1>
+<img src = "https://vivesantarosa.com.mx/wp-content/uploads/2019/02/UPSRJ-Desarrollo-Destacada-Nota01.jpg" width = auto> </h1>
 <p align='center'>
 </p>
 
