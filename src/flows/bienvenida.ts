@@ -16,7 +16,7 @@ export const welcomeFlow = addKeyword(["Hola", "hola", "hi", "hello","denisse"])
             "  Menu ✨📚",
             "",
             "1️⃣ Servicios Escolares 🏫📚✨",
-            "2️⃣ Oferta Educativa🔗✨ ",
+            "2️⃣ Vinculación🔗✨ ",
             "3️⃣ Inglés 🇬🇧🇺🇸📚",
             "4️⃣ Salir ❌"
         ].join('\n'),
